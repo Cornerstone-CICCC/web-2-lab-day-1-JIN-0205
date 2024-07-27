@@ -9,6 +9,46 @@
 <body>
   <!-- YOUR CODE HERE -->
   
+  <section class="search-section ">
+    <form>
+      <input type="text" id="searchInput" name="searchInput" class="input"  />
+      <input type="button" id="searchBtn" value="Search" class="input" onclick="resetData()">
+    </form>
+
+    <!-- <div id="result"></div> -->
+  </section>
+
+  <div class="temperature"></div>
+
+  <section class="image-section">
+    <div class="city-name"></div>
+    <div class="city-temperature"></div>
+  </section>
+
+  <section class="data-section ">
+    <table>
+      <tr>
+        <th>Country</th>
+        <td class="country"></td>
+      </tr>
+      <tr>
+      <th>Timezone</th>
+        <td class="timezone"></td>
+      </tr>
+      <tr>
+      <th>Population</th>
+        <td class="population"></td>
+      </tr>
+      <tr>
+        <th>Vancouver's forecast</th>
+          <td class="forecast">
+            <span class="high"></span> <br> <span class="low"></span>
+          </td>
+        </tr>
+      </table>
+
+  </section>
+
   <script src="./app.js"></script>
 </body>
 </html>
